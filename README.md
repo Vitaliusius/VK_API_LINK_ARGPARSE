@@ -5,6 +5,7 @@
 ## Окружение
 
 Python3.14.2 должен быть уже установлен.
+Рекомендуется использовать [virtualemv/venv](https://docs.python.org/3/library/venv.html) для изоляции проекта.
 
 ## Зависимости
 
@@ -12,8 +13,6 @@ Python3.14.2 должен быть уже установлен.
 ```
 pip install -r requirements.txt
 ```
-
-Рекомендуется использовать [virtualemv/venv](https://docs.python.org/3/library/venv.html) для изоляции проекта.
 
 ## Переменные окружения
 
@@ -41,3 +40,4 @@ main.py https://vk.cc/cTNUK9
 ## Цель проекта
 
 Код написан в образовательных целях на онлайн-курсе для веб-разработчиков [dvmn.org](https://dvmn.org/).
+
