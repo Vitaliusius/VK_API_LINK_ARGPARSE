@@ -52,10 +52,10 @@ def count_clicks(token, link):
 
 def main():
     parser = create_parser()
-    incominglink = parser.parse_args()
+    incoming_link = parser.parse_args()
     load_dotenv()
     token = os.environ['VK_SERVICE_KEY']
-    url = incominglink.link
+    url = incoming_link.link
     try:
         if is_shorten_link(token, url):
             print('Количество кликов: ', count_clicks(token, urlparse(url).path[1:]))
@@ -69,3 +69,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
